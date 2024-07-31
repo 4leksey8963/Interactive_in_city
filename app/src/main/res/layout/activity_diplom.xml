@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/header"
+            android:maxHeight="50dp">
+
+            <Button
+                android:layout_marginTop="3dp"
+                android:id="@+id/Back"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="10dp"
+                android:foreground="@drawable/back"
+                android:foregroundTint="#FFFFFF"
+                android:gravity="center|top"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"></Button>
+
+            <TextView
+                android:fontFamily="@font/old_soviet"
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="10"
+                android:gravity="center|top"
+                android:paddingTop="3dp"
+                android:shadowColor="#000000"
+                android:shadowDx="10"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:text="Диплом"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:foreground="@drawable/next"
+                android:foregroundTint="#FFFFFF"
+                android:gravity="center"
+                android:text=""
+                android:visibility="invisible"
+                android:textColor="@color/white"
+                android:textSize="20dp"></Button>
+        </LinearLayout>
+    <LinearLayout
+        android:paddingTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:background="@color/lightGreen"
+        android:orientation="vertical"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp">
+
+        <ImageView
+            android:id="@+id/imageDiplom"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/diplom" />
+
+        <Button
+            android:shadowColor="#000000"
+            android:shadowDx="5"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:fontFamily="@font/old_soviet"
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/darkGreen"
+            android:text="Сохранить как JPG"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/footer"
+            android:maxHeight="50dp"></LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

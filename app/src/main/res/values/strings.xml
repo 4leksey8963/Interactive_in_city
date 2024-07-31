@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Кострома героическая</string>
+    <string name="progress_rewards">0</string>
+    <string name="serIndexStation">0</string>
+    <string name="pantusovo_link">https://gradkostroma.ru/news/232274b7-8fa4-485c-a66c-4ca1a11f76ce.aspx</string>
+    <string name="ermakov_link">https://gradkostroma.ru/society/honor/ermakov-evgeniy-lvovich/index.aspx</string>
+    <string name="golubkov_link">https://gradkostroma.ru/i/u/society/Victory/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%BA%D0%BE%D0%B2.htm</string>
+    <string name="pobedimskiy_link">https://dmsh1.kst.muzkult.ru/pobtdimskiy/</string>
+    <string name="belenogov_link">https://ganiko.org/index.htm?/publikacii/kalendar/20190603/istoriya-v-licah-i-dokumentah-geroj-sovetskogo-soyuza-belenogov-yurij-sergeevich.htm</string>
+    <string name="tank_link">https://life.kostromka.ru/tank-t34-20878/</string>
+    <string name="compass_description">Compas</string>
+    <string name="User">Пользователь</string>
+    <string name="start_quest1.1">Приглашаем вас в увлекательное путешествие по страницам истории, где каждый шаг открывает героические подвиги наших предков. В этом квесте вы не просто участники - вы становитесь свидетелями величия и отваги, которые оставили след в веках. На каждой станции вас ждут задания, которые не только проверят вашу смекалку и знания, но и позволят глубже понять историю нашей страны. Готовы ли вы к испытанию? Пусть ваше путешествие начнется!</string>
+    <string name="start_quest1.2">Первая станция нашего путешествия: Мемориал жителям Пантусово - участникам Великой Отечественной войны 1941 -1945 годов. Отправляйся туда, чтобы узнать о их бесстрашии и отваге.</string>
+    <string name="station1.1">Мемориал «Жителям Пантусово — участникам Великой Отечественной войны 1941–1945 годов» в Костроме появился по инициативе ТОСа микрорайона и неравнодушных жителей.</string>
+    <string name="station1.2">Памятный знак установлен у дома №1 по второму Пантусовскому проезду. До этого на этом месте находилась одноименная деревня. Из этих мест на фронт ушли 125 солдат. Установить все имена помогли работники областного военкомата.</string>
+    <string name="start_quest2.1">Памятный знак установлен у дома №1 по второму Пантусовскому проезду. До этого на этом месте находилась одноименная деревня. Из этих мест на фронт ушли 125 солдат. Установить все имена помогли работники областного военкомата.</string>
+    <string name="school">, учащий(ая)ся учебного заведения</string>
+    <string name="clas">, класса</string>
+    <string name="marsh1">\"Заволжская тропа героев\"</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkGreen">#4C562F</color>
+    <color name="lightGreen">#A4A77E</color>
+    <color name="textSuccess">#206408</color>
+    <color name="text">#384416</color>
+    <color name="disable">#636A50</color>
+    <color name="whiteGreen">#1ab08d</color>
+    <color name="ripple_color">#80FFFFFF</color>
+    <color name="false_otv">#5F0000</color>
+    <color name="true_otv">#00531D</color>
+</resources>

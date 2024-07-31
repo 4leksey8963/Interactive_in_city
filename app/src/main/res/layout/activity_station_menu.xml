@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/header"
+            android:maxHeight="50dp">
+
+            <Button
+                android:id="@+id/Back"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:foreground="@drawable/back"
+                android:foregroundTint="#FFFFFF"
+                android:gravity="center|top"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"></Button>
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="10"
+                android:fontFamily="@font/old_soviet"
+                android:gravity="center|top"
+                android:paddingTop="3dp"
+                android:shadowColor="#000000"
+                android:shadowDx="10"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:text="Жителям Пантусово"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:id="@+id/next"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:foreground="@drawable/next"
+                android:foregroundTint="#FFFFFF"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:visibility="invisible"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="@drawable/button_background"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingTop="40dp"
+            android:paddingRight="30dp">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/StationImage"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center">
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/old_soviet"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:id="@+id/Theory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/button_teor"
+                    android:text="История"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp" />
+
+                <CheckBox
+                    android:id="@+id/check1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFFFFF"></CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/old_soviet"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:id="@+id/Test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/button_test"
+                    android:text="Тест"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp" />
+
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="10"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:paddingLeft="55dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/old_soviet"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:id="@+id/Check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/button_geo"
+                    android:text="Я здесь был"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp" />
+
+                <CheckBox
+                    android:id="@+id/check4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/BackToMap"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:adjustViewBounds="true"
+                    android:backgroundTint="@color/darkGreen"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/back_to_mapt"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/footer"
+            android:maxHeight="50dp"></LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

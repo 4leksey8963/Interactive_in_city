@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+    </com.yandex.mapkit.mapview.MapView>
+
+
+
+    <include
+        android:id="@+id/compass_view"
+        layout="@layout/compass_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/menu_button3"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:scaleType="centerCrop"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        tools:ignore="MissingConstraints">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/location_button"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/metka"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Моё местоположение"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="16dp"/>
+
+    <ImageButton
+        android:id="@+id/hideRoad"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/all_routes"
+        android:background="@drawable/custom_ripple"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="170dp"
+
+        android:layout_marginEnd="16dp">
+    </ImageButton>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
