@@ -75,7 +75,7 @@ Every project is different, so consider which of these sections apply to yours. 
 Я с командой работали над данным проектом в рамках интенсива. Основа проекта находится в закрытом репозитории на gitlab 
 
 ## License
-GNU GPL v1.0, указана в файле [LICENSE](../LICENSE).
+GNU GPL v1.0, указана в файле [LICENSE](/LICENSE).
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
