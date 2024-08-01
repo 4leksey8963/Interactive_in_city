@@ -6,11 +6,12 @@
 
 ## Illustrations
 <p align="center">
-  <p float="left">
-  <img src="/img1.png" width="100" />
-  <img src="/img2.png" width="100" /> 
-  <img src="/img3.png" width="100" />
-  <img src="/img3.png" width="100" />
+  Здесь представлены некоторые иллюстрации из приложения<p></p>
+  <p float="left" align="center">
+  <img src="/illustrations/img1.jpg" width="200" />
+  <img src="/illustrations/img2.jpg" width="200" /> 
+  <img src="/illustrations/img3.jpg" width="200" />
+  <img src="/illustrations/img3.jpg" width="200" />
   </p>
 </p>
 
