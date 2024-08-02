@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "814026733068",
+    "project_id": "kostroma-heroical",
+    "storage_bucket": "kostroma-heroical.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814026733068:android:61186f293750e4449ce029",
+        "android_client_info": {
+          "package_name": "com.example.kostroma_geroicheskaya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBshxJ68OE1wzMBB9BC-Mj1b3R10pj56hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814026733068:android:40f3ea7b319116009ce029",
+        "android_client_info": {
+          "package_name": "com.example.road_maps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBshxJ68OE1wzMBB9BC-Mj1b3R10pj56hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814026733068:android:e300518c91b1d3239ce029",
+        "android_client_info": {
+          "package_name": "com.example.testingfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBshxJ68OE1wzMBB9BC-Mj1b3R10pj56hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

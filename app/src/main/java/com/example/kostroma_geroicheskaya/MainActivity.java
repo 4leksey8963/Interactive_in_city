@@ -1,8 +1,6 @@
 package com.example.kostroma_geroicheskaya;
 
 
-import static androidx.fragment.app.FragmentManager.TAG;
-
 import android.Manifest;
 import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
@@ -23,7 +21,6 @@ import android.location.Location;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.LinearInterpolator;
@@ -62,7 +59,6 @@ import com.yandex.mapkit.transport.masstransit.Route;
 import com.yandex.mapkit.transport.masstransit.Session;
 import com.yandex.mapkit.transport.masstransit.TimeOptions;
 import com.yandex.runtime.Error;
-import com.yandex.runtime.attestation.EcPublicKey;
 import com.yandex.runtime.image.ImageProvider;
 
 import java.io.IOException;
@@ -192,7 +188,7 @@ public class MainActivity extends BaseActivity {
                 complateRoute = true;
             else
                 complateRoute = false;
-            imgOfStations = Arrays.asList(R.drawable.pantusovo4,  R.drawable.ermakova4, R.drawable.golubkova4,  R.drawable.pobedisnkiy4, R.drawable.belenogovo4, R.drawable.tank4);
+            imgOfStations = Arrays.asList(R.drawable.point_map1_4,  R.drawable.point_map2_4, R.drawable.point_map3_4,  R.drawable.point_map4_4, R.drawable.point_map5_4, R.drawable.point_map6_4);
 
             createLandmarks(addPlacemarksBool);
             updatePlacemarks();
